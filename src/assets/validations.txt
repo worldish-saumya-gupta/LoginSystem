@@ -1,0 +1,16 @@
+Password validation
+
+A password should be alphanumeric.
+First letter of the password should be capital.
+Password must contain a special character (@, $, !, &, etc).
+Password length between 6 to 20 characters.
+One of the most important that the password fields should not be empty.
+
+Email validation
+
+The presence of an “@” symbol, separating the local part from the domain part.
+The presence of a domain part with at least one dot, indicating a domain extension.
+No leading, trailing, or consecutive whitespace characters within the email address.
+
+If it does match, send an alert stating “valid email address”
+If it doesn’t match, send an alert stating “invalid email address”
